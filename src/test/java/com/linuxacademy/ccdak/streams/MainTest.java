@@ -1,13 +1,12 @@
 package com.linuxacademy.ccdak.streams;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-public class MainTest {
-    /*
-    @Test public void testAppHasAGreeting() {
-        Main classUnderTest = new Main();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+class MainTest {
+
+    @Test
+    public void shouldDoSomething() {
+        Assertions.assertThat(3 + 3).isEqualTo(6);
     }
-    */
 }
